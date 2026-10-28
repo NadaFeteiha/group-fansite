@@ -1,7 +1,7 @@
 .site-header {
   background:
     linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../assets/header_background.jpg) repeat;
+    url(../images/header_background.jpg) repeat;
 
   background-size:
     cover,
@@ -16,7 +16,7 @@
 nav {
   background:
     linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../assets/header_background.jpg) repeat;
+    url(../images/header_background.jpg) repeat;
 
   background-color: #c0392b;
 
@@ -75,7 +75,7 @@ nav ul {
 .site-footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../assets/header_background.jpg) repeat;
+    url(../images/header_background.jpg) repeat;
 
   background-size:
     cover,
