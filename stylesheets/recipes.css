@@ -1,26 +1,12 @@
-/* Header, nav, and footer match the gallery page:
-   food pattern with a dark overlay (instead of the plain red/gray in style.css) */
+/* Override: red overlay instead of the dark one in style.css */
 .site-header,
 nav,
 .site-footer {
-  background:
-    linear-gradient(rgba(192, 57, 43, 0.25), rgba(192, 57, 43, 0.25)),
-    url(../images/header_background.jpg) repeat;
-  background-color: #c0392b;
-  background-size:
-    cover,
-    350px auto;
+  --overlay: rgba(192, 57, 43, 0.25);
 }
 
 nav {
   padding: 16px 20px;
-}
-
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
 }
 
 /* --------------------------------------------------- */

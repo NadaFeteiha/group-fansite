@@ -138,7 +138,7 @@ a:focus {
 /* ---------- Wave 3 - Navigation (flexbox) ---------- */
 
 .site-nav {
-  background-color: #1f7fc4;
+  background: #1f7fc4;
 }
 
 .site-nav ul {

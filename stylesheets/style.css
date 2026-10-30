@@ -98,11 +98,13 @@ footer {
   background-color: #333333;
 }
 
-/* Food pattern with a dark overlay on our footer */
+
 .site-header,
+nav,
 .site-footer {
+  --overlay: rgba(0, 0, 0, 0.25);
   background:
-    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    linear-gradient(var(--overlay), var(--overlay)),
     url(../images/header_background.jpg) repeat;
   background-color: #c0392b;
   background-size:
