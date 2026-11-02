@@ -3,7 +3,7 @@ body {
   font-family: "Comic Sans MS", "Times New Roman", serif;
   line-height: 1.6;
   color: #504f4f;
-  background-color: #fff8f0;
+  background-color: #fffaf2;
 
 /* Whisk cursor: "36 20" refences the hotspot (the tip of the whisk). */
   cursor: url("../images/whisk.png") 36 20, auto;

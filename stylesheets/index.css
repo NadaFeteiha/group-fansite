@@ -51,14 +51,14 @@ a:focus {
 
 .site-header {
   text-align: left;
-  padding: 2.5rem 1rem;
+  padding: 2rem 1rem;
   background: linear-gradient(135deg, #cfe8f7, #fffaf2);
 }
 
 /* Wave 2 - Override: bigger title on the home page */
 
 .site-header h1 {
-  color: #a52a1c;
+  color: #c0392b;
   font-size: clamp(2.6rem, 7vw, 4.5rem);
   font-weight: 800;
   margin-bottom: 0.25rem;
@@ -71,7 +71,7 @@ a:focus {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
+  gap: 3rem;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -111,12 +111,12 @@ a:focus {
 
 .bounce-title .bounce-word span {
   display: inline-block;
-  animation: bounce 2.3s ease-in-out infinite;
+  animation: bounce 2.3s ease-in-out 1;
   animation-delay: calc(var(--i) * 0.12s);
 }
 
 @keyframes bounce {
-  0%, 75%, 100% {
+  0%, 50%, 100% {
     transform: translateY(0);
     opacity: 1;
   }
@@ -305,4 +305,22 @@ main section {
 
 .site-footer p {
   margin: 0;
+}
+
+/* Image attribution: same style as the gallery credits, aligned right */
+.image-credit {
+  max-width: 1100px;
+  margin: 0.5rem auto 0;
+  font-size: 0.8rem;
+  color: #666666;
+  text-align: right;
+}
+
+.image-credit a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.image-credit a:hover {
+  color: #000000;
 }
